@@ -22,8 +22,6 @@ const AppointmentCreated: React.FC = () => {
 
   const routeParams = params as RouteParams;
 
-  console.log(routeParams.date);
-
   const formattedDate = useMemo(() => {
     return format(
       routeParams.date,
